@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Selectors Activity</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="pink.jpeg" type="image/x-icon">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/cycle2.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+        <header>
+
+        <div class="box1">
+            <h1>Wes Anderson Movies</h1>
+            <p class="hide-small">This is the <span>best</span> of Wes Anderson.</p>
+
+            <p>This link will bring you to <a href="homepage.html">my thoughts</a>.</p>
+
+        <div class="p1">
+            <p>Wes Anderson has a very disctinct style of directing in his movies. This website is about him, as well as the highlights of his movie catalogue
+            </p>
+            </div>
+        </div>
+
+            <nav class="site-nav"> 
+                <ul>
+                    <li> <a href="homepage.html">See my thoughts</a> </li>
+                    <li> <a href="Images.html">Go to images webpage</a> </li>
+                    <li class="hide-small"> <a href="Music.html">Go to music webpage</a> </li>
+                </ul>
+            </nav> 
+        </header>
+
+        <div class="fix">
+        </div>
+
+        <div class="content-area">
+        <div class="main-area">
+        <Article>
+            <header>
+                <h2>About Wes Anderson</h2>
+                <p>Posted on October 19, 2022</p>
+            </header>
+
+            <p>Wesley Wales Anderson was born on May 1, 1969, in Houston, Texas, to Texas Ann Anderson (née Burroughs), a realtor and archaeologist, and Melver Leonard Anderson, who worked in advertising and public relations. He is the second of three boys; his parents divorced when he was eight. His older brother, Mel, is a physician, and his younger brother, Eric Chase Anderson, is a writer and artist whose paintings and designs have appeared in several of Anderson's films, such as The Royal Tenenbaums. Anderson is of English, Swedish and Norwegian ancestry.
+                He graduated from St. John's School in Houston in 1987, which he later used as a prominent location throughout Rushmore. As a child, Anderson made silent films on his father's Super 8 camera which starred his brothers and friends, although his first ambition was to be a writer. Anderson worked part-time as a cinema projectionist while attending the University of Texas at Austin, where he met his roommate and future collaborator Owen Wilson in 1989. In 1991 he graduated with a B.A. in philosophy. (Wikipedia, 2022)
+            </p>
+
+            <!-- info box -->
+            <div class="info box hide small">
+            <p><strong>Wes Anderson has proved himself to be one of the best directors in Hollywood</strong> His style is one of a kind.
+            </p>
+            </div>
+            <!-- info box-->
+
+        <form>
+            <label for="email" class="hidden-label">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="email">
+            <label for="Password" class="hidden-label">Password</label>
+            <input type="Password" name="Password" id="Password" placeholder="Password">
+
+             <select>
+                <option>Initially View</option>
+                <option>My profile</option>
+                <option>Inbox</option>
+                <option>Account Settings</option>
+            </select>
+
+            <input type="submit" value="sign in">
+
+            <label>
+                <input type="checkbox" name="remember" checked="checked" value="yes">
+                <span class="checkbox-test" >Stay Signed-In</span>
+            </label>
+</form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-fave">Movie</th>
+                    <th class="col-q">Year</th>
+                    <th class="col-p">Earnings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Grand Budapest Hotel</td>
+                    <td>2014</td>
+                    <td>$172.9 million</td>
+                </tr>
+                <tr>
+                    <td>Fantastic Mr. Fox</td>
+                    <td>2009</td>
+                    <td>$46.5 million</td>
+                </tr>
+                <tr>
+                    <td>The French Dispatch</td>
+                    <td>2021</td>
+                    <td>$46.3 million</td>
+                </tr>
+                <tr>
+                    <td>Rushmore</td>
+                    <td>1998</td>
+                    <td>$19.1 million</td>
+                </tr>
+                <tr>
+                    <td>Isle of Dogs</td>
+                    <td>2018</td>
+                    <td>$64.2 million</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="image-banner">
+    
+        <div class="cycle-slideshow" data-cycle-slides=".slide">
+
+            <span class="cycle-prev">Previous</span>
+            <span class="cycle-next">Next</span>
+
+        <div class="slide">
+        <img src="wes.webp">
+            <div class="slide-text">
+                <h3>Wes Anderson</h3>
+                <p>Pictured at the French Dispatch premiere</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="wesl.webp">
+            <div class="slide-text">
+                <h3>Wes Anderson</h3>
+                <p>Pictured at a premiere</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="wesle.webp">
+            <div class="slide-text">
+                <h3>Wes Anderson</h3>
+                <p>Pictured at a premiere</p>
+            </div>
+        </div>
+
+        </div>
+   
+            <div class="fix">
+            </div>
+
+            <div class="banner-description">
+                <p>Wes Anderson at the French Dispatch Premiere in Paris, France. (Alamy, 2022)
+            </div>
+        </div>
+
+            <p class="highlight">Anderson was nominated for the Academy Award for Best Original Screenplay for The Royal Tenenbaums (2001), Moonrise Kingdom (2012) and The Grand Budapest Hotel (2014), as well as the Academy Award for Best Animated Feature for the stop-motion films Fantastic Mr. Fox (2009) and Isle of Dogs (2018). (Wikipedia, 2022)
+
+            <p>With The Grand Budapest Hotel, he received his first Academy Award nominations for Best Director and Best Picture, and won the Golden Globe Award for Best Motion Picture - Musical or Comedy and the BAFTA Award for Best Original Screenplay. He currently runs the production company American Empirical Pictures, which he founded in 1998.
+            </p>
+            </p>
+
+            <footer>
+                <p>He won the Silver Bear for Best Director for Isle of Dogs in
+                    <span class="brand-color">2018</span>.</p>
+            </footer>
+        </Article>
+        </div>
+
+        <div class="support">
+        <article>
+            <header>
+                <h2>Wes Anderson's Early Career</h2>
+                <p>Posted on October 20, 2022</p>
+            </header>
+            
+            <div class="article main topic">
+                <p>Anderson's first film was Bottle Rocket (1996), based on a short film of the same name that he made with 
+                    <span class="brand-color">Luke and Owen Wilson</span>.</p>
+            </div>
+        
+            <p>Battle Rocket was a crime caper about a group of young Texans aspiring to achieve major heists. It was well reviewed but performed poorly at the box office.
+            </p>
+
+            <p class="highlight">His next film was Rushmore (1998), a quirky comedy about a high school student's crush on an elementary school teacher starring Jason Schwartzman, Bill Murray, and Olivia Williams. It was a critical and financial success. 
+            </p>
+
+            <p>The film launched Murray's second act as a respected actor within independent cinema. Murray has since appeared in every Anderson film to date. At the 1999 Independent Spirit Awards, Anderson won the Best Director award and Murray won Best Supporting Male. Murray also earned a nomination for Golden Globe Award for Best Supporting Actor - Motion Picture. In 2000, filmmaker Martin Scorsese praised Bottle Rocket and Rushmore. Since its release, Rushmore has gained cult status, and in 2016, the film was selected for preservation in the United States National Film Registry by the Library of Congress as being deemed "culturally, historically, or aesthetically significant".
+
+            <Aside>
+                <h3>Glossary</h3>
+                <p>Cult Classic: Cult films are known for their dedicated, passionate fanbase which forms an elaborate subculture, members of which engage in repeated viewings, dialogue-quoting, and audience participation.
+            </Aside>
+                        
+            <footer>
+                <p>(Wikipedia, 2022)</p>
+            </footer>
+        </article>
+        </div>
+
+
+        <div class="fix">
+        </div>
+
+
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Other links in this website will lead to music scores and images of Wes Anderson movies</p>
+        </aside>
+        
+        <footer>
+            <p>&copy;2022</p>
+        </footer>
+
+    </div>
+     </body>  
+</html>>
